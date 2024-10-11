@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -13,14 +12,16 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 20px 100px 80px;
+    padding: 20px 100px 70px;
     flex-direction: column;
-    height: 20%;
+    max-height: 25%;
 }
 
 .header h1 {
@@ -56,6 +57,7 @@ body {
 .header-content {
     display: flex;
     justify-content: center;
+    padding: 0;
 }
 
 .header-left {
@@ -91,7 +93,8 @@ body {
 }
 
 .random-info {
-    height: 20%;
+    height: 25%;
+    padding: 30px 30px 80px;
 }
 
 .info-header {
@@ -106,8 +109,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    padding: 10px 90px 20px;
+    margin-top: 20px;
     gap: 40px;
 }
 
@@ -121,3 +123,27 @@ body {
 }
 
 
+.quote-container {
+    background-color: #E5E7EB;
+    max-height: 25%;
+    padding: 80px;
+}
+
+.quote, .speaker {
+    color: #1F2937;
+}
+
+.quote {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto 10px;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.speaker {
+    text-align: end;
+    padding-right: 100px;
+}
