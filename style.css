@@ -21,7 +21,7 @@ body {
     display: flex;
     padding: 20px 100px 70px;
     flex-direction: column;
-    max-height: 25%;
+    height: 25%;
 }
 
 .header h1 {
@@ -61,7 +61,6 @@ body {
 }
 
 .header-left {
-    width: 400px;
     padding-right: 20px;
 }
 
@@ -77,14 +76,17 @@ body {
     margin-bottom: 10px;
 }
 
+.header-left button, .sign-container button {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+}
+
 .header-left button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
-    text-align: center;
-    width: 100px;
-    height: 30px;
-    border-radius: 10px;
 }
 
 .header-content img {
@@ -94,7 +96,7 @@ body {
 
 .random-info {
     height: 25%;
-    padding: 30px 30px 80px;
+    padding: 30px 30px 100px;
 }
 
 .info-header {
@@ -125,7 +127,7 @@ body {
 
 .quote-container {
     background-color: #E5E7EB;
-    max-height: 25%;
+    height: 25%;
     padding: 80px;
 }
 
@@ -146,4 +148,44 @@ body {
 .speaker {
     text-align: end;
     padding-right: 100px;
+}
+
+.sign-bg {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 80px;
+}
+
+.sign-container {
+    background-color: #3882F6;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    border-radius: 8px;
+}
+
+.sign-text h1, .sign-text p{
+    color: #F9FAF8;
+}
+
+.sign-text h1 {
+    font-size: 20px;
+}
+
+.sign-text p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.sign-container button {
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #F9FAF8;
 }
