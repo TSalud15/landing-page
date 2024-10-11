@@ -20,7 +20,7 @@ body {
     display: flex;
     padding: 20px 100px 80px;
     flex-direction: column;
-    height: 30%;
+    height: 20%;
 }
 
 .header h1 {
@@ -55,10 +55,12 @@ body {
 
 .header-content {
     display: flex;
+    justify-content: center;
 }
 
 .header-left {
     width: 400px;
+    padding-right: 20px;
 }
 
 .header-left h1{
@@ -88,7 +90,34 @@ body {
     height: auto;
 }
 
+.random-info {
+    height: 20%;
+}
 
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 10px 0;
+}
 
+.random-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 90px 20px;
+    gap: 40px;
+}
+
+.item img {
+    width: 150px;
+    height: auto;
+}
+
+.item p {
+    width: 150px;
+}
 
 
